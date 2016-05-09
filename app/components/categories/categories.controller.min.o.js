@@ -1,0 +1,1 @@
+var _$_872e=["categoriesController","$scope","REST1","categories","controller","module"];angular[_$_872e[5]](_$_872e[3])[_$_872e[4]](_$_872e[0],[_$_872e[1],_$_872e[2],function(a,b){a[_$_872e[3]]=b[_$_872e[3]]()}])

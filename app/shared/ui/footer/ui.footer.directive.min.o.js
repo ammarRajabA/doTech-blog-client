@@ -1,0 +1,1 @@
+var _$_fad3=["footer","E","/app/shared/ui/footer/ui.footer.view.html","@title","=links","directive","ui.footer","module"];angular[_$_fad3[7]](_$_fad3[6])[_$_fad3[5]](_$_fad3[0],[function(){return {restrict:_$_fad3[1],templateUrl:_$_fad3[2],scope:{footerTitle:_$_fad3[3],footerLinks:_$_fad3[4]}}}])

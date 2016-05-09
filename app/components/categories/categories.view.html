@@ -1,0 +1,5 @@
+<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-phone" ng-repeat="(category,cover) in categories|unique:category">
+		<card title="{{category}}" img="cover" url="#categories/{{category}}" link="{{category}}" shadow="mdl-shadow--16dp"></card>
+	</div>
+</div>

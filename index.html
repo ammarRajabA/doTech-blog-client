@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="blog">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/AngularJS-Toaster/toaster.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/prism/prism.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <title>doTech</title>
+</head>
+<body>
+    <toaster-container></toaster-container>
+    <div class="mdl-layout mdl-js-layout" ng-controller="appController">
+        <navbar class="mdl-layout__header mdl-layout__header--scroll" title="{{title}}" links="navLinks"></navbar>
+        <drawer class="mdl-layout__drawer" title="{{title}}" links="navLinks"></drawer>
+        <div class="mdl-layout__content">
+            <div ng-view></div>
+        </div>
+        <footer class="mdl-mini-footer" title="{{title}}" links="footerLinks"></footer>
+    </div>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/material-design-lite/material.min.js"></script>
+
+    <script src="bower_components/angular-base64/angular-base64.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+
+    <script src="/bower_components/AngularJS-Toaster/toaster.min.js"></script>
+
+    <script type="text/javascript" src="/bower_components/tinymce-dist/tinymce.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular-ui-tinymce/src/tinymce.js"></script>
+    <script type="text/javascript" src="/assets/libs/prism/prism.js"></script>
+
+    <script src="/app/shared/ui/drawer/ui.drawer.js"></script>
+    <script src="/app/shared/ui/navbar/ui.navbar.js"></script>
+    <script src="/app/shared/ui/footer/ui.footer.js"></script>
+    <script src="/app/shared/ui/card/ui.card.js"></script>
+    <script src="/app/shared/ui/menu/ui.menu.js"></script>
+    <script src="/app/shared/ui/prompt/ui.prompt.js"></script>
+    
+    <script src="/app/shared/ui/drawer/ui.drawer.directive.min.o.js"></script>
+    <script src="/app/shared/ui/navbar/ui.navbar.directive.min.o.js"></script>
+    <script src="/app/shared/ui/footer/ui.footer.directive.min.o.js"></script>
+    <script src="/app/shared/ui/card/ui.card.directive.min.o.js"></script>
+    <script src="/app/shared/ui/menu/ui.menu.directive.min.o.js"></script>
+    <script src="/app/shared/ui/prompt/ui.prompt.directive.min.o.js"></script>
+
+    <script src="/app/shared/ui/ui.js"></script>
+
+    <script src="/app/components/home/home.js"></script>
+    <script src="/app/components/home/home.controller.min.o.js"></script>
+
+    <script src="/app/components/categories/categories.js"></script>
+    <script src="/app/components/categories/categories.filter.js"></script>
+    <script src="/app/components/categories/categories.service.min.o.js"></script>
+    <script src="/app/components/categories/categories.controller.min.o.js"></script>
+    <script src="/app/components/categories/categories.category.controller.min.o.js"></script>
+
+    <script src="/app/components/article/article.js"></script>
+    <script src="/app/components/article/article.service.min.o.js"></script>
+    <script src="/app/components/article/article.controller.min.o.js"></script>
+    <script src="/app/components/article/article.editor.controller.min.o.js"></script>
+
+    <script src="/app/components/about/about.js"></script>
+    <script src="/app/components/about/about.controller.min.o.js"></script>
+
+    <script src="/app/components/contact/contact.js"></script>
+    <script src="/app/components/contact/contact.controller.min.o.js"></script>
+
+    <script src="/app/components/terms/terms.js"></script>
+    <script src="/app/components/terms/terms.controller.min.o.js"></script>
+
+    <script src="/app/app.min.o.js"></script>
+    <script src="/app/app.routes.min.o.js"></script>
+    <script src="/app/app.controller.js"></script>
+</body>
+</html>

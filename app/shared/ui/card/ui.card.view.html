@@ -1,0 +1,13 @@
+<style type="text/css">
+	.wide-card{
+		width:100%;
+	}
+</style>
+<div class="mdl-card {{shadow}}" ng-class="{'wide-card':wide}">
+	<div class="mdl-card__title"><h1 class="mdl-card__title-text">{{cardTitle}}</h1></div>
+	<div class="mdl-card__media"><img ng-src="{{cardImage.src}}" width="{{cardImage.width}}" height="{{cardImage.height}}" border="{{cardImage.border}}" alt="{{cardImage.alt}}" style="{{cardImage.style}}"></div>
+	<div class="mdl-card__supporting-text" ng-bind-html="cardText"></div>
+	<div class="mdl-card__actions mdl-card--border">
+		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" ng-click="cardFunc()" ng-href="{{cardUrl}}">{{cardLink}}</a>
+	</div>
+</div>

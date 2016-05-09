@@ -1,0 +1,8 @@
+<button id="demo-menu-lower-right"
+        class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">more_vert</i>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-right">
+    <li class="mdl-menu__item" ng-repeat="(label, func) in menuItems" ng-click="func()">{{label}}</li>
+</ul>

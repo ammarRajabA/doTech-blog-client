@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "description": "blog client",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "ammar rajab"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "material-design-lite": "~1.0.6",
+    "angular": "~1.4.9",
+    "angular-sanitize": "~1.4.9",
+    "angular-route": "~1.4.9",
+    "angular-resource": "~1.4.9",
+    "angular-ui-tinymce": "~0.0.13",
+    "angular-base64": "~2.0.5",
+    "AngularJS-Toaster": "angularjs-toaster#~1.1.0"
+  }
+}

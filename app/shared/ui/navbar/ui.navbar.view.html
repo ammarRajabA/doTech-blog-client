@@ -1,0 +1,7 @@
+<div class="mdl-layout__header-row">
+	<span class="mdl-layout__title">{{navTitle}}</span>
+	<div class="mdl-layout-spacer"></div>
+	<nav class="mdl-navigation">
+		<a class="mdl-navigation__link" ng-repeat="(nav_link,nav_url) in navLinks" ng-href="{{nav_url}}">{{nav_link}}</a>
+	</nav>
+</div>

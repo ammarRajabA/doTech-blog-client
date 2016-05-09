@@ -1,0 +1,31 @@
+<div class="editor">
+	<h1 class="title">Write your cool article </h1>
+	<textarea ng-model="newArticle.content" ui-tinymce="tinymceOptions">{{newArticle.content}}</textarea>
+	<div class="control">
+		<form action="#" ng-show="login==true">
+  			<div class="mdl-textfield mdl-js-textfield">
+    			<input class="mdl-textfield__input" type="text" id="userName" ng-model="userName">
+    			<label class="mdl-textfield__label" for="userName">Username</label>
+  			</div>
+  			<div class="mdl-textfield mdl-js-textfield">
+    			<input class="mdl-textfield__input" type="password" id="password" ng-model="password">
+    			<label class="mdl-textfield__label" for="password">Password</label>
+  			</div>
+		</form>
+		<form action="#" ng-show="details==true">
+  			<div class="mdl-textfield mdl-js-textfield">
+    			<input class="mdl-textfield__input" type="text" id="title" ng-model="newArticle.title">
+    			<label class="mdl-textfield__label" for="title">Title of the article</label>
+  			</div>
+  			<div class="mdl-textfield mdl-js-textfield">
+    			<input class="mdl-textfield__input" type="text" id="cover" ng-model="newArticle.cover">
+    			<label class="mdl-textfield__label" for="cover">Link to article cover</label>
+  			</div>
+  			<div class="mdl-textfield mdl-js-textfield">
+    			<input class="mdl-textfield__input" type="text" id="category" ng-model="newArticle.category">
+    			<label class="mdl-textfield__label" for="category">Category</label>
+  			</div>
+		</form>
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" ng-click="nextStep()">{{nextButton}}</button>
+	</div>
+</div>

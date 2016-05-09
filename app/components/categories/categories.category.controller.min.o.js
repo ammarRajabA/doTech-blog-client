@@ -1,0 +1,1 @@
+var _$_3ebf=["categoryController","$scope","$routeParams","REST1","currentCategory","category","titles","controller","categories","module"];angular[_$_3ebf[9]](_$_3ebf[8])[_$_3ebf[7]](_$_3ebf[0],[_$_3ebf[1],_$_3ebf[2],_$_3ebf[3],function(b,a,c){b[_$_3ebf[4]]=a[_$_3ebf[5]],b[_$_3ebf[6]]=c[_$_3ebf[6]](b[_$_3ebf[4]])}])

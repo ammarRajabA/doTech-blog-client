@@ -1,0 +1,1 @@
+var _$_1359=["navbar","E","/app/shared/ui/navbar/ui.navbar.view.html","@title","=links","directive","ui.navbar","module"];angular[_$_1359[7]](_$_1359[6])[_$_1359[5]](_$_1359[0],[function(){return {restrict:_$_1359[1],templateUrl:_$_1359[2],scope:{navTitle:_$_1359[3],navLinks:_$_1359[4]}}}])

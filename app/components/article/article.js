@@ -1,0 +1,1 @@
+angular.module('article', ['ngResource','ui.tinymce','base64','ngResource']);

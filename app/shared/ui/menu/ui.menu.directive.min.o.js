@@ -1,0 +1,1 @@
+var _$_fd53=["menu","E","/app/shared/ui/menu/ui.menu.view.html","=items","directive","ui.menu","module"];angular[_$_fd53[6]](_$_fd53[5])[_$_fd53[4]](_$_fd53[0],[function(){return {restrict:_$_fd53[1],templateUrl:_$_fd53[2],scope:{menuItems:_$_fd53[3]}}}])

@@ -1,0 +1,203 @@
+/*for phones (default)*/
+.article .title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.article .cover{
+    display: block;
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.article .content{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.article .content pre{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.article .content img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .author{
+    display: block;
+    width: 90%;
+    height: 20%;
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.editor{
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.editor .title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.editor .control{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/*for tablets*/
+@media only screen and (min-width:600px){
+.article .title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.article .cover{
+    display: block;
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.article .content{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.article .content pre{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.article .content img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .author{
+    display: block;
+    width: 90%;
+    height: 20%;
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.editor{
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.editor .title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.editor .control{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+}
+
+/*for desktop*/
+@media only screen and (min-width: 768px){
+.article .title{
+    text-align: center;
+    font-size: 36px;
+}
+.article .cover{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.article .content{
+    display: block;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 24px;
+}
+.article .content pre{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.article .content img{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+}
+.article .author{
+    display: block;
+    width: 30%;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.editor{
+    display: block;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.editor .title{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.editor .control{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+}

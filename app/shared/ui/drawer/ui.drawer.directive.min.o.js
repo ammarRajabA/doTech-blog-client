@@ -1,0 +1,1 @@
+var _$_dc56=["drawer","E","/app/shared/ui/drawer/ui.drawer.view.html","@title","=links","directive","ui.drawer","module"];angular[_$_dc56[7]](_$_dc56[6])[_$_dc56[5]](_$_dc56[0],[function(){return {restrict:_$_dc56[1],templateUrl:_$_dc56[2],scope:{drawerTitle:_$_dc56[3],drawerLinks:_$_dc56[4]}}}])

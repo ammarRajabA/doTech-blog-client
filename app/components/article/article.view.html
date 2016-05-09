@@ -1,0 +1,9 @@
+<div class="article">
+	<prompt title="deletePrompt.title" body="deletePrompt.body" fields="deletePrompt.fields" ok-function="deletePrompt.okFunction()" ok-text="deletePrompt.okText" show="deletePrompt.showPrompt"></prompt>
+	<menu style="position:absolute;right:5%;padding-top:10px;" items="options"></menu>
+	<h1 class="title">{{article.title}}</h1>
+	<div class="mdl-badge mdl-badge--overlap mdl-badge--no-background" data-badge="{{article.views}}" style="position:absolute;right:5%;">Views</div>
+	<img class="cover" src="{{article.cover}}">
+	<p class="content" ng-bind-html="article.content"></p>
+	<a class="author mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" href="#categories">Written by : {{article.author}}</a>
+</div>
